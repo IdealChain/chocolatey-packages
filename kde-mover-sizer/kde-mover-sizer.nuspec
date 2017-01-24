@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kde-mover-sizer</id>
+    <version>2.9</version>
+    <title>KDE Mover-Sizer</title>
+    <authors>corz.org</authors>
+    <projectUrl>http://corz.org/windows/software/accessories/KDE-resizing-moving-for-Windows.php</projectUrl>
+    <owners>IdealChain</owners>
+    <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/kde-mover-sizer</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/IdealChain/chocolatey-packages/fde305ea9aa75d505b25e8083db9d08f6ec69ba3/icons/kde-mover-sizer.png</iconUrl>
+    <copyright>© 2006-2014 corz.org</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>http://corz.org/public/machine/source/windows/accessories/KDE%20Mover-Sizer%20for%20Windows_%5Blatest_source%5D.ahk?raw=true</projectSourceUrl>
+    <releaseNotes>http://corz.org/public/machine/source/windows/accessories/KDE%20Mover-Sizer%20for%20Windows_%5Blatest_source%5D.ahk?raw=true</releaseNotes>
+    <tags>kde mover-sizer move resize windows</tags>
+    <summary>KDE Mover-Sizer makes it easy to move and resize windows.</summary>
+    <description>[KDE Mover-Sizer](http://corz.org/windows/software/accessories/KDE-resizing-moving-for-Windows.php) (created with [AutoHotKey](https://www.autohotkey.com)) makes it easy to move and resize windows without having to position your mouse cursor accurately.
+
+## Usage
+
+Simply hold down the Alt key, and click or drag anywhere on the window. During move or resize, use Shift to lock movements horizontally or vertically. During move or resize, release, press and hold Alt to quick-fit window into grid. Move mouse to select window position and size.
+
+### The shortcuts
+
+* Alt + Left Button -> Drag to move a window.
+* Alt + Right Button -> Drag to resize a window.
+* Alt + Middle Button -> Maximize/Restore a window.
+* Double-Alt + Left Button -> Minimize a window.
+* Double-Alt + Right Button -> Maximize/Restore a window.  
+* Double-Alt + Middle Button -> Close a window.
+
+The Double-Alt modifier is activated by pressing the Alt key twice, much like a double-click. Hold the second Alt-press down until you click the mouse button. Tada!
+
+For more, see menu and tray info balloons. For even more, edit the INI file and the [AddOns] section.
+
+If it doesn't work on all windows, try to run KDE Mover-Sizer with elevation:
+
+`powershell Start-Process 'KDE Mover-Sizer.exe' -Verb RunAs`
+</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
