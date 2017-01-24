@@ -10,12 +10,13 @@
     <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/josm</packageSourceUrl>
     <iconUrl>https://cdn.rawgit.com/IdealChain/chocolatey-packages/42ba519a08f22401c1a4ac9147c8e4a0fdc57d15/icons/josm.png</iconUrl>
     <copyright>JOSM contributors</copyright>
-    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
+    <licenseUrl>https://josm.openstreetmap.de/browser/trunk/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://josm.openstreetmap.de/browser/josm/trunk</projectSourceUrl>
     <docsUrl>https://josm.openstreetmap.de/wiki/Help</docsUrl>
     <mailingListUrl>https://lists.openstreetmap.org/listinfo/josm-dev</mailingListUrl>
     <bugTrackerUrl>https://josm.openstreetmap.de/report</bugTrackerUrl>
+    <releaseNotes>https://josm.openstreetmap.de/wiki/Changelog</releaseNotes>
     <tags>josm admin openstreetmap osm editor</tags>
     <summary>JOSM is an extensible editor for ​OpenStreetMap (OSM) for ​Java 8.</summary>
     <description>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8. JOSM is open source and licensed under GPL.
