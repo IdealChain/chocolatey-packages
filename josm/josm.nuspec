@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>josm</id>
-    <version>11427.0</version>
+    <version>11514.0</version>
     <title>JOSM</title>
     <authors>JOSM contributors</authors>
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
@@ -23,9 +23,7 @@
 
 It supports loading GPX tracks, background imagery and OSM data from local sources as well as from online sources and allows to edit the OSM data (nodes, ways and relations) and their metadata tags.
 
-OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
-
-_Uninstaller Note:_ as of this time, the NSIS uninstaller for JOSM appears to be failing when called with the silent switch (/S). Thus, uninstallation requires attendance.</description>
+OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.</description>
     <dependencies>
       <dependency id="jre8" version="8.0.111" />
     </dependencies>

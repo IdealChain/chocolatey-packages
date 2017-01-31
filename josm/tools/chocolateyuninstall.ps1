@@ -12,7 +12,7 @@ if ($key.Count -eq 1) {
   $key | % {
     $file = "$($_.UninstallString.Trim('"'))"
     $instDir = "$(Split-Path $file)\"
-    $silentArgs = "_?=$instDir"
+    $silentArgs = "/S _?=$instDir"
 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `
