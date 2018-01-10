@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash</id>
-    <version>3.1.1</version>
+    <version>3.1.2</version>
     <title>Electron Cash</title>
     <authors>Electrum Developers, Jonald Fyookball</authors>
     <owners>IdealChain</owners>
@@ -12,7 +12,6 @@
     <projectSourceUrl>https://github.com/fyookball/electrum</projectSourceUrl>
     <licenseUrl>https://raw.githubusercontent.com/fyookball/electrum/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://raw.githubusercontent.com/fyookball/electrum/master/RELEASE-NOTES</releaseNotes>
     <copyright>© 2012 Electrum</copyright>
     <tags>bitcoin-cash bch blockchain wallet cryptocurrency admin</tags>
     <summary>Lightweight SPV wallet for Bitcoin Cash</summary>
@@ -21,6 +20,17 @@ Electron Cash gives you what you love about the popular Electrum Bitcoin wallet,
 
 We have forked the Electrum code repository and added the necessary components for operation with Bitcoin Cash. Some Multisig and hardware add-ons are not supported.
     </description>
+    <releaseNotes>
+#### Release 3.1.2
+  * Additional security improvements related to JSONRPC
+
+#### Release 3.1.1
+  * Requires Python 3.5 or greater
+  * Fixes JSONPRC security threat
+  * Fixes included for ledger for windows
+
+[Full Changelog](https://raw.githubusercontent.com/fyookball/electrum/master/RELEASE-NOTES)
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
