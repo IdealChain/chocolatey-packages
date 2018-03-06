@@ -19,6 +19,10 @@
 Electron Cash gives you what you love about the popular Electrum Bitcoin wallet, but for Bitcoin Cash. Control your own private keys. Back up your wallet easily with a mnemonic seed phrase. SPV technology provides high security without having to download the blockchain or run a full node.
 
 We have forked the Electrum code repository and added the necessary components for operation with Bitcoin Cash. Some Multisig and hardware add-ons are not supported.
+
+#### Note on Virus Scan Results
+Some (minor) scan engines are falsely detecting the Electron Cash executable as malicious (false positive).
+The authors are aware and working on it, sister projects are also affected (see also [1](https://github.com/fyookball/electrum/issues/335), [2](https://github.com/spesmilo/electrum/issues/3198)).
     </description>
     <releaseNotes>
 #### Release 3.1.2
