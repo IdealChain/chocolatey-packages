@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>josm</id>
-    <version>13500.0</version>
+    <version>13576.0</version>
     <title>JOSM</title>
     <authors>JOSM contributors</authors>
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
@@ -18,8 +18,8 @@
     <bugTrackerUrl>https://josm.openstreetmap.de/report</bugTrackerUrl>
     <releaseNotes>https://josm.openstreetmap.de/wiki/Changelog</releaseNotes>
     <tags>josm admin openstreetmap osm editor</tags>
-    <summary>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8.</summary>
-    <description>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8. JOSM is open source and licensed under GPL.
+    <summary>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8+.</summary>
+    <description>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8+. JOSM is open source and licensed under GPL.
 
 It supports loading GPX tracks, background imagery and OSM data from local sources as well as from online sources and allows to edit the OSM data (nodes, ways and relations) and their metadata tags.
 
