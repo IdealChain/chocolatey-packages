@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash</id>
-    <version>3.1.6</version>
+    <version>3.2</version>
     <title>Electron Cash</title>
     <authors>Electrum Developers, Jonald Fyookball</authors>
     <owners>IdealChain</owners>
@@ -12,7 +12,7 @@
     <projectSourceUrl>https://github.com/fyookball/electrum</projectSourceUrl>
     <licenseUrl>https://raw.githubusercontent.com/fyookball/electrum/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <copyright>© 2012 Electrum</copyright>
+    <copyright>© Electrum Developers, Jonald Fyookball</copyright>
     <tags>bitcoin-cash bch blockchain wallet cryptocurrency admin</tags>
     <summary>Lightweight SPV wallet for Bitcoin Cash</summary>
     <description>
@@ -25,11 +25,21 @@ Some (minor) scan engines are falsely detecting the Electron Cash executable as 
 The authors are aware and working on it, sister projects are also affected (see also [1](https://github.com/fyookball/electrum/issues/335), [2](https://github.com/spesmilo/electrum/issues/3198)).
     </description>
     <releaseNotes>
+#### Release 3.2
+  * Restore disabled script opcodes (May 2018 HF)
+  * Network protocol version bump to 1.2
+  * Ledger: cashaddr support and various fixes
+  * More block explorers
+  * Other bugfixes and improvements
+
 #### Release 3.1.6
   * Enable Bip70 payment requests for merchants like BitPay
   * Prohibit unconfirmed inputs on payment request (invoice) payments because Bitpay will reject them anyway
   * Remove Bitpay address format from address converter as Bitpay is now fully on CashAddr
   * Introduce 'cash' moniker for micro bitcoin
+
+#### Release 3.1.5
+  * Various bug fixes
 
 #### Release 3.1.2
   * Additional security improvements related to JSONRPC
