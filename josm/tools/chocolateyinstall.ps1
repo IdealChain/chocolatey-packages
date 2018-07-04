@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = 'josm'
   fileType      = 'EXE'
-  url           = 'https://josm.openstreetmap.de/download/windows/josm-setup-13878.exe'
-  checksum      = 'e8f5e5bf2f59e7ac4ba66fc58cb6c5f4c57091af23bf618b1735fe683f3c93ed'
+  url           = 'https://josm.openstreetmap.de/download/windows/josm-setup-13996.exe'
+  checksum      = '90a8b392f540bb55978a7aab0dfca1339a891327ea7685a7276d44894d94cbdf'
   checksumType  = 'sha256'
   silentArgs    = '/S'
   validExitCodes= @(0)

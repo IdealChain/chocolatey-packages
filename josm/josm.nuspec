@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>josm</id>
-    <version>13878.0</version>
+    <version>13996.0</version>
     <title>JOSM</title>
     <authors>JOSM contributors</authors>
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
@@ -25,7 +25,7 @@ It supports loading GPX tracks, background imagery and OSM data from local sourc
 
 OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.</description>
     <dependencies>
-      <dependency id="jre8" version="8.0.111" />
+      <dependency id="jre8" version="8.0.171" />
     </dependencies>
   </metadata>
   <files>
