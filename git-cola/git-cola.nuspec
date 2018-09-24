@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>git-cola</id>
-    <version>3.1</version>
+    <version>3.2</version>
     <title>Git Cola</title>
     <authors>David Aguilar and contributors</authors>
     <projectUrl>https://git-cola.github.io/</projectUrl>
@@ -13,9 +13,9 @@
     <licenseUrl>https://github.com/git-cola/git-cola/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/git-cola/git-cola</projectSourceUrl>
-    <docsUrl>https://git-cola.readthedocs.io/en/latest/</docsUrl>
+    <docsUrl>https://git-cola.github.io/share/doc/git-cola/html/index.html</docsUrl>
     <bugTrackerUrl>https://github.com/git-cola/git-cola/issues</bugTrackerUrl>
-    <releaseNotes>https://git-cola.readthedocs.io/en/latest/relnotes.html</releaseNotes>
+    <releaseNotes>https://git-cola.github.io/share/doc/git-cola/html/relnotes.html</releaseNotes>
     <tags>git-cola git gui python pyqt5</tags>
     <summary>Git Cola is a sleek and powerful graphical user interface for Git.</summary>
     <description>Git Cola is a sleek and powerful graphical user interface for Git.
