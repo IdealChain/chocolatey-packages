@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash</id>
-    <version>3.3.2</version>
+    <version>3.3.3</version>
     <title>Electron Cash</title>
     <authors>Electrum Developers, Jonald Fyookball</authors>
     <owners>IdealChain</owners>
@@ -25,6 +25,19 @@ Some (minor) scan engines are falsely detecting the Electron Cash executable as 
 The authors are aware and working on it, sister projects are also affected (see also [1](https://github.com/fyookball/electrum/issues/335), [2](https://github.com/spesmilo/electrum/issues/3198)).
     </description>
     <releaseNotes>
+#### Release 3.3.3
+  * Added native elliptic curve cryptography using libsecp256k1 (1000x speedup on tx signing in some cases)
+  * MacOS QR Reader now works
+  * Windows QR Reader now works
+  * Various performance fixes -- app should be able to handle much larger wallets now with many UTXOs
+  * Nework layer fixups
+  * Updated Checkpoint to the BCH chain.
+  * Various minor UI glitches fixed
+  * MacOS binary size significantly reduced
+  * Support for OP_RETURN parameters to bitcoincash: URL
+  * Allow 1-of-1 multisig wallets
+  * Server list update
+
 #### Release 3.3.2
   * UTXO (coin) level freezing (accessible from Coins tab)
   * Bugfix to network code reared its head when user switches forks in unlikely circumstances

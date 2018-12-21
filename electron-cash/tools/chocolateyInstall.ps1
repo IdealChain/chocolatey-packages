@@ -7,8 +7,8 @@ $shortcutPath = "$(Join-Path $env:ProgramData 'Microsoft\Windows\Start Menu\Prog
 $packageArgs = @{
     packageName    = 'electron-cash'
     fileFullPath   = $installFile
-    url            = 'https://electroncash.org/downloads/3.3.2/win-linux/ElectronCash-3.3.2.exe'
-    checksum       = '37632f10fc64242a5c8b21b29428b44d1ab3af2dbb78a6bb27e5319a1a501962'
+    url            = 'https://electroncash.org/downloads/3.3.3/win-linux/ElectronCash-3.3.3.exe'
+    checksum       = '11312774a3dc157c36eb7180a1ee02455689c4212e7deb515f284ff9bb6fc7c1'
     checksumType   = 'sha256'
     forceDownload  = $true
 }
