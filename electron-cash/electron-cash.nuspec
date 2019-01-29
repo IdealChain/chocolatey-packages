@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash</id>
-    <version>3.3.4</version>
+    <version>3.3.5</version>
     <title>Electron Cash</title>
     <authors>Electrum Developers, Jonald Fyookball</authors>
     <owners>IdealChain</owners>
@@ -25,6 +25,20 @@ Some (minor) scan engines are falsely detecting the Electron Cash executable as 
 The authors are aware and working on it, sister projects are also affected (see also [1](https://github.com/fyookball/electrum/issues/335), [2](https://github.com/spesmilo/electrum/issues/3198)).
     </description>
     <releaseNotes>
+#### Release 3.3.5
+
+  * Added ability to specify raw hex op_return data in Send tab
+  * Added server options for: "Preferred" and "Banned" in Network Dialog, and an
+    option to connect to only preferred servers.
+  * LabelSync plugin now works properly
+  * Cosigner pool plugin fixups -- it should work much better now!
+  * Cashaddr is now default on new installs
+  * OSX packaging fixes (code signature should stay dynamically valid now)
+  * Updated Trezor plugin to trezorlib-0.11.x (#1089)
+  * Many bugs and quirks fixed from issue tracker
+  * Performance improvements
+  * Memory leaks fixed
+
 #### Release 3.3.4
   * Anti-Phishing protection for all platforms. Server-provided text will not
     appear in user-facing GUI windows anymore. Server error messages are instead
