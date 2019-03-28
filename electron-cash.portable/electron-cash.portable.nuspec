@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>electron-cash</id>
+    <id>electron-cash.portable</id>
     <version>4.0.0</version>
-    <title>Electron Cash</title>
+    <title>Electron Cash (Portable)</title>
     <authors>Electrum Developers, Jonald Fyookball</authors>
     <owners>IdealChain</owners>
-    <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/electron-cash</packageSourceUrl>
+    <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/electron-cash.portable</packageSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Electron-Cash/Electron-Cash@8552edee97804be494288105db36873107f5e50c/icons/electron-cash.png</iconUrl>
     <projectUrl>https://electroncash.org</projectUrl>
     <projectSourceUrl>https://github.com/Electron-Cash/Electron-Cash</projectSourceUrl>
@@ -25,8 +25,8 @@ We have forked the Electrum code repository and added the necessary components f
 Some (minor) scan engines are falsely detecting the Electron Cash executable as malicious (false positive).
 The authors are aware and working on it, sister projects are also affected (see also [1](https://github.com/fyookball/electrum/issues/335), [2](https://github.com/spesmilo/electrum/issues/3198)).
     </description>
-    <dependencies>
-      <dependency id="electron-cash.install" version="[4.0.0]" />
-    </dependencies>    
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
