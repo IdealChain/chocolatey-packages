@@ -8,7 +8,7 @@
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
     <owners>IdealChain</owners>
     <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/josm</packageSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/IdealChain/chocolatey-packages/42ba519a08f22401c1a4ac9147c8e4a0fdc57d15/icons/josm.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/IdealChain/chocolatey-packages@42ba519a08f22401c1a4ac9147c8e4a0fdc57d15/icons/josm.png</iconUrl>
     <copyright>JOSM contributors</copyright>
     <licenseUrl>https://josm.openstreetmap.de/browser/trunk/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

@@ -8,7 +8,7 @@
     <projectUrl>https://git-cola.github.io/</projectUrl>
     <owners>IdealChain</owners>
     <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/git-cola</packageSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/IdealChain/chocolatey-packages/b02fa03a/icons/git-cola.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/IdealChain/chocolatey-packages@b02fa03a054d1aaac0a1d9e1b5ecf0de22c950e7/icons/git-cola.png</iconUrl>
     <copyright>David Aguilar and contributors</copyright>
     <licenseUrl>https://github.com/git-cola/git-cola/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

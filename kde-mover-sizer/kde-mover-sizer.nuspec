@@ -8,7 +8,7 @@
     <projectUrl>http://corz.org/windows/software/accessories/KDE-resizing-moving-for-Windows.php</projectUrl>
     <owners>IdealChain</owners>
     <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/kde-mover-sizer</packageSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/IdealChain/chocolatey-packages/fde305ea9aa75d505b25e8083db9d08f6ec69ba3/icons/kde-mover-sizer.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/IdealChain/chocolatey-packages@fde305ea9aa75d505b25e8083db9d08f6ec69ba3/icons/kde-mover-sizer.png</iconUrl>
     <copyright>© 2006-2014 corz.org</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>http://corz.org/public/machine/source/windows/accessories/KDE%20Mover-Sizer%20for%20Windows_%5Blatest_source%5D.ahk?raw=true</projectSourceUrl>
