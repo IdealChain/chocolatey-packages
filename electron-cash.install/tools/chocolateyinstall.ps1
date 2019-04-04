@@ -7,8 +7,8 @@ Remove-Item "$shortcutPath" -ErrorAction Ignore
 $packageArgs = @{
   packageName   = 'electron-cash'
   fileType      = 'EXE'
-  url           = 'https://electroncash.org/downloads/4.0.0/win-linux/Electron-Cash-4.0.0-setup.exe'
-  checksum      = 'a75b02f092ac831ace2c3d880f6c4738cfbf53940600af5cea26cbefc67f0e97'
+  url           = 'https://electroncash.org/downloads/4.0.1/win-linux/Electron-Cash-4.0.1-setup.exe'
+  checksum      = 'fb3381b9f25796e8259a0062bbdb9c5eb0e8f79148d03b45c55f6a7ababd0c4f'
   checksumType  = 'sha256'
   silentArgs    = '/S'
   validExitCodes= @(0)
