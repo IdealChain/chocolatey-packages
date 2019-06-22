@@ -4,8 +4,8 @@ $tempDir = (Get-Item $env:TEMP).FullName
 $packageArgs = @{
   packageName  = 'git-cola'
   fileFullPath = (Join-Path $tempDir "git-cola.zip")
-  url          = 'https://github.com/git-cola/git-cola/releases/download/v3.3/git-cola-3.3.windows.zip'
-  checksum     = '3bb4e1cdfd01033b47b7fb691e0f4074fbc928366068cd7d6b77ee6e286ddfb6'
+  url          = 'https://github.com/git-cola/git-cola/releases/download/v3.4/git-cola-3.4.windows.zip'
+  checksum     = '603901f94b020eae8c17790f12291cfc1ae3fde06cce699ac3e43915f3fde090'
   checksumType = 'sha256'
 }
 
