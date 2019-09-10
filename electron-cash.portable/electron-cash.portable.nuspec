@@ -2,9 +2,9 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash.portable</id>
-    <version>4.0.9</version>
+    <version>4.0.10</version>
     <title>Electron Cash (Portable)</title>
-    <authors>Electrum Developers, Jonald Fyookball</authors>
+    <authors>Electron Cash LLC &amp; The Electron Cash Developers</authors>
     <owners>IdealChain</owners>
     <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/electron-cash.portable</packageSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/Electron-Cash/Electron-Cash@8552edee97804be494288105db36873107f5e50c/icons/electron-cash.png</iconUrl>
@@ -12,14 +12,12 @@
     <projectSourceUrl>https://github.com/Electron-Cash/Electron-Cash</projectSourceUrl>
     <licenseUrl>https://raw.githubusercontent.com/Electron-Cash/Electron-Cash/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <copyright>© Electrum Developers, Jonald Fyookball</copyright>
+    <copyright>© 2017-2019 Electron Cash LLC &amp; The Electron Cash Developers</copyright>
     <releaseNotes>https://raw.githubusercontent.com/Electron-Cash/Electron-Cash/master/RELEASE-NOTES</releaseNotes>
     <tags>bitcoin-cash bch blockchain wallet cryptocurrency admin</tags>
-    <summary>Lightweight SPV wallet for Bitcoin Cash</summary>
+    <summary>A Bitcoin Cash SPV Wallet</summary>
     <description>
-Electron Cash gives you what you love about the popular Electrum Bitcoin wallet, but for Bitcoin Cash. Control your own private keys. Back up your wallet easily with a mnemonic seed phrase. SPV technology provides high security without having to download the blockchain or run a full node.
-
-We have forked the Electrum code repository and added the necessary components for operation with Bitcoin Cash. Some Multisig and hardware add-ons are not supported.
+Control your own private keys. Easily back up your wallet with a mnemonic seed phrase. Enjoy high security without downloading the blockchain or running a full node.
 
 #### Note on Virus Scan Results
 Some (minor) scan engines are falsely detecting the Electron Cash executable as malicious (false positive).
