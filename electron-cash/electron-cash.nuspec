@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash</id>
-    <version>4.0.10</version>
+    <version>4.0.11</version>
     <title>Electron Cash</title>
     <authors>Electron Cash LLC &amp; The Electron Cash Developers</authors>
     <owners>IdealChain</owners>
@@ -24,7 +24,7 @@ Some (minor) scan engines are falsely detecting the Electron Cash executable as 
 The authors are aware and working on it, sister projects are also affected (see also [1](https://github.com/fyookball/electrum/issues/335), [2](https://github.com/spesmilo/electrum/issues/3198)).
     </description>
     <dependencies>
-      <dependency id="electron-cash.install" version="[4.0.10]" />
+      <dependency id="electron-cash.install" version="[4.0.11]" />
     </dependencies>
   </metadata>
 </package>
