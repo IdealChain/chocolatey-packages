@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>josm</id>
-    <version>15553.0</version>
+    <version>15628.0</version>
     <title>JOSM</title>
     <authors>JOSM contributors</authors>
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
@@ -23,10 +23,12 @@
 
 It supports loading GPX tracks, background imagery and OSM data from local sources as well as from online sources and allows to edit the OSM data (nodes, ways and relations) and their metadata tags.
 
-OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.</description>
-    <dependencies>
-      <dependency id="jre8" version="8.0.171" />
-    </dependencies>
+OpenStreetMap powers map data on thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
+
+#### Note on Java JRE dependency
+I removed the hard dependency on [Oracle JRE](https://chocolatey.org/packages/jre8) to allow users to choose a different OpenJDK distribution. In case JOSM does not start because you don't have any JRE installed, I suggest installing the [AdoptOpenJDK JRE](https://chocolatey.org/packages/adoptopenjdkjre):
+
+    choco install adoptopenjdkjre</description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
