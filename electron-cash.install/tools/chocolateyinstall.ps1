@@ -3,8 +3,8 @@
 $packageArgs = @{
   packageName   = 'electron-cash'
   fileType      = 'EXE'
-  url           = 'https://electroncash.org/downloads/4.2.0/win-linux/Electron-Cash-4.2.0-setup.exe'
-  checksum      = '584ac9c04d6bbdb99d69f01e7036fe9e5864974bf74e011e72ca44d1c1376a5e'
+  url           = 'https://electroncash.org/downloads/4.2.2/win-linux/Electron-Cash-4.2.2-setup.exe'
+  checksum      = '458370d1dec4d23653f54c2eb4966016916446f02ec7b6840f4fc2aa763eb323'
   checksumType  = 'sha256'
   silentArgs    = '/S'
   validExitCodes= @(0)
