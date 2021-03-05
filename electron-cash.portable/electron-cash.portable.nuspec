@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash.portable</id>
-    <version>4.2.3</version>
+    <version>4.2.4</version>
     <title>Electron Cash (Portable)</title>
     <authors>Electron Cash LLC &amp; The Electron Cash Developers</authors>
     <owners>IdealChain</owners>
@@ -12,7 +12,7 @@
     <projectSourceUrl>https://github.com/Electron-Cash/Electron-Cash</projectSourceUrl>
     <licenseUrl>https://raw.githubusercontent.com/Electron-Cash/Electron-Cash/master/LICENCE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <copyright>© 2017-2020 Electron Cash LLC &amp; The Electron Cash Developers</copyright>
+    <copyright>© 2017-2021 Electron Cash LLC &amp; The Electron Cash Developers</copyright>
     <releaseNotes>https://raw.githubusercontent.com/Electron-Cash/Electron-Cash/master/RELEASE-NOTES</releaseNotes>
     <tags>bitcoin-cash bch blockchain wallet cryptocurrency admin</tags>
     <summary>A Bitcoin Cash SPV Wallet</summary>
