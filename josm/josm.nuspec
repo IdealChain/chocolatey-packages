@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>josm</id>
-    <version>18118.0</version>
+    <version>18191.0</version>
     <title>JOSM</title>
     <authors>JOSM contributors</authors>
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
@@ -17,7 +17,7 @@
     <mailingListUrl>https://lists.openstreetmap.org/listinfo/josm-dev</mailingListUrl>
     <bugTrackerUrl>https://josm.openstreetmap.de/report</bugTrackerUrl>
     <releaseNotes>https://josm.openstreetmap.de/wiki/Changelog</releaseNotes>
-    <tags>josm admin openstreetmap osm editor</tags>
+    <tags>josm openstreetmap osm editor</tags>
     <summary>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8+.</summary>
     <description>JOSM is an extensible editor for OpenStreetMap (OSM) for Java 8+. JOSM is open source and licensed under GPL.
 

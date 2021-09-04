@@ -1,27 +1,15 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName    = 'josm'
-$softwareName   = 'JOSM *'
-$installerType  = 'EXE'
-$validExitCodes = @(0)
-$uninstalled    = $false
-
-[array]$key = Get-UninstallRegistryKey -SoftwareName $softwareName
+$packageName = 'josm'
+[array]$key = Get-UninstallRegistryKey -SoftwareName 'JOSM'
 
 if ($key.Count -eq 1) {
   $key | % {
-    $file = "$($_.UninstallString.Trim('"'))"
-    $instDir = "$(Split-Path $file)\"
-    $silentArgs = "/S _?=$instDir"
-
+    $productGUID = $($_.UninstallString -split '/x')[1]
     Uninstall-ChocolateyPackage -PackageName $packageName `
-                                -FileType $installerType `
-                                -SilentArgs "$silentArgs" `
-                                -ValidExitCodes $validExitCodes `
-                                -File "$file"
-
-    Remove-Item "$file"
-    Remove-Item "$instDir"
+                                -FileType 'MSI' `
+                                -SilentArgs "$productGUID /qn" `
+                                -ValidExitCodes @(0) `
   }
 } elseif ($key.Count -eq 0) {
   Write-Warning "$packageName has already been uninstalled by other means."
