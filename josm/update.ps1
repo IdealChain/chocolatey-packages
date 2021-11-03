@@ -4,7 +4,7 @@ $releases = 'https://josm.openstreetmap.de/download/windows/'
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $re      = "josm-setup-\d+(-java16)?\.exe$"
+    $re      = "josm-setup-\d+(-java\d+)?\.exe$"
     $url     = $download_page.links | ? href -match $re | select -Last 1 -expand href
     $version = $($url -split '-|.exe')[2]
     return @{ URL = "$releases$url"; Version = "$version.0" }
