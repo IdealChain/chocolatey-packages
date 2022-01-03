@@ -16,8 +16,8 @@ if ($uninstallKey.Count -eq 1) {
 $packageArgs = @{
   packageName   = 'josm'
   fileType      = 'EXE'
-  url           = 'https://josm.openstreetmap.de/download/windows/josm-setup-18303-java17.exe'
-  checksum      = 'a4f7b430232ac4851e9165a71925f28553c5f5405a00b1890907c273f6ebb6db'
+  url           = 'https://josm.openstreetmap.de/download/windows/josm-setup-18360-java17.exe'
+  checksum      = 'fb4ce2816a27d2783c954a15a1302782a2da0bd90cbef688673a2679a13432e0'
   checksumType  = 'sha256'
   silentArgs    = '/qn'
   validExitCodes= @(0)
