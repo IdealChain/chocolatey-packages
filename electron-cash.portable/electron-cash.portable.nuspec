@@ -2,7 +2,7 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>electron-cash.portable</id>
-    <version>4.2.8</version>
+    <version>4.2.10</version>
     <title>Electron Cash (Portable)</title>
     <authors>Electron Cash LLC &amp; The Electron Cash Developers</authors>
     <owners>IdealChain</owners>
