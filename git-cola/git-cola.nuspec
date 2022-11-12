@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>git-cola</id>
-    <version>4.0.2</version>
+    <version>4.0.3</version>
     <title>Git Cola</title>
     <authors>David Aguilar and contributors</authors>
     <projectUrl>https://git-cola.github.io/</projectUrl>
