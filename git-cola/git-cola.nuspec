@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>git-cola</id>
-    <version>4.5.0.20240202</version>
+    <version>4.6.1</version>
     <title>Git Cola</title>
     <authors>David Aguilar and contributors</authors>
     <projectUrl>https://git-cola.github.io/</projectUrl>
@@ -23,7 +23,7 @@ Git Cola is free software and written in Python (v2 + v3).
 
 ![screenshot](https://git-cola.github.io/images/screenshot-dark-linux.png "git-cola Screenshot")</description>
     <dependencies>
-      <dependency id="git" version="2.18.0" />
+      <dependency id="git" version="2.44.0" />
     </dependencies>
   </metadata>
   <files>
