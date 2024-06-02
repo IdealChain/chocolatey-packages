@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>josm</id>
-    <version>19039.0</version>
+    <version>19067.0</version>
     <title>JOSM</title>
     <authors>JOSM contributors</authors>
     <projectUrl>https://josm.openstreetmap.de</projectUrl>
