@@ -7,7 +7,7 @@ function global:au_GetLatest {
     $re      = 'Electron-Cash-[\d\.]+-setup.exe$'
     $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
     $version = $($url -split '-|-setup.exe')[-2]
-    return @{ URL = "$releases$url"; Version = $version }
+    return @{ URL = $url; Version = $version }
 }
 
 function global:au_SearchReplace {
