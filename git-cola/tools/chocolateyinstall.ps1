@@ -5,7 +5,7 @@ $packageArgs = @{
   packageName  = 'git-cola'
   fileFullPath = (Join-Path $tempDir "git-cola.zip")
   url          = 'https://github.com/git-cola/git-cola/releases/download/v4.10.1/git-cola-4.10.1.windows.zip'
-  checksum     = ''
+  checksum     = 'b0adff4022762fb9afe73f90ce8ee1cbde904974befc6b31b91b9b604173e29a'
   checksumType = 'sha256'
 }
 
