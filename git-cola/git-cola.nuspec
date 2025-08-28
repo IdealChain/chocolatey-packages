@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>git-cola</id>
-    <version>4.13.0</version>
+    <version>4.14.0</version>
     <title>Git Cola</title>
     <authors>David Aguilar and contributors</authors>
     <projectUrl>https://git-cola.github.io/</projectUrl>
@@ -10,7 +10,7 @@
     <packageSourceUrl>https://github.com/IdealChain/chocolatey-packages/tree/master/git-cola</packageSourceUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/IdealChain/chocolatey-packages@b02fa03a054d1aaac0a1d9e1b5ecf0de22c950e7/icons/git-cola.png</iconUrl>
     <copyright>David Aguilar and contributors</copyright>
-    <licenseUrl>https://github.com/git-cola/git-cola/blob/master/COPYING</licenseUrl>
+    <licenseUrl>https://github.com/git-cola/git-cola/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/git-cola/git-cola</projectSourceUrl>
     <docsUrl>https://git-cola.github.io/share/doc/git-cola/html/index.html</docsUrl>
@@ -19,7 +19,7 @@
     <tags>git-cola git gui python pyqt5</tags>
     <summary>Git Cola is a sleek and powerful graphical user interface for Git.</summary>
     <description>Git Cola is a sleek and powerful graphical user interface for Git.
-Git Cola is free software and written in Python (v2 + v3).
+Git Cola is free software and powered by Python and PyQt.
 
 ![screenshot](https://git-cola.github.io/images/screenshot-dark-linux.png "git-cola Screenshot")</description>
     <dependencies>
