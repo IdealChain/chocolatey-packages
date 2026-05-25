@@ -4,9 +4,9 @@ $releases = 'https://electroncash.org/'
 
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
-    $re      = 'Electron-Cash-[\d\.]+.exe$'
+    $re      = 'Electron-Cash-[\d\.]+-x86_64\.exe$'
     $url     = $download_page.links | ? href -match $re | select -First 1 -expand href
-    $version = $($url -split '-|.exe')[-2]
+    $version = $($url -split '-|.exe')[-3]
     return @{ URL = $url; Version = $version }
 }
 

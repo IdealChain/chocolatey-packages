@@ -7,10 +7,9 @@ $shortcutPath = "$(Join-Path $env:AppData 'Microsoft\Windows\Start Menu\Programs
 $packageArgs = @{
     packageName    = 'electron-cash'
     fileFullPath   = $installFile
-    url            = 'https://electroncash.org/downloads/4.4.3/win-linux/Electron-Cash-4.4.3.exe'
-    checksum       = '1aa82fb2ce7b78f5c75a4f3b1e4e7ca1843b8558e7f881e2da64a7b5f909de0d'
+    url            = 'https://electroncash.org/downloads/4.4.5/win-linux/Electron-Cash-4.4.5-x86_64.exe'
+    checksum       = '98c613cb7f5c9747bf125729352f51b1eef07b983631138908f6a9c8c81f55b9'
     checksumType   = 'sha256'
-    forceDownload  = $true
 }
 
 Get-ChocolateyWebFile @packageArgs
